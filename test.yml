@@ -1,7 +1,6 @@
 ---
 - name: Test_copy
-  hosts: local
-  become: yes
+  hosts: virtservers
   
   tasks:
   - name: ping server
