@@ -1,6 +1,6 @@
 ---
 - name: Test_copy
-  hosts: control
+  hosts: local
   become: yes
   
   tasks:
